@@ -1,7 +1,14 @@
+/* Couleur//////////// */
+:root {
+	--couleurPrincipale: hsl(133, 100%, 52%);
+}
+
+
+
 body {
 	font-family: system-ui;
-	background-color: magenta;
-	color: white;
+	background-color: var(--couleurPrincipale);
+	color: color-mix(in srgb, var(--couleurPrincipale) 20%, white 80% )
 }
 h1{
 	font-size: 8vw;
