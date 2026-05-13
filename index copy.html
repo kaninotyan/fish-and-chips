@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		* { margin: 0; }
+		body{ font-family: system-ui; }
+
+		:root {
+			--fiesta: #F1357F;
+			--cyan: #357AF1;
+		}
+
+		.color{
+			margin: 2rem;
+			padding: 0.5rem;
+			width: max-content;
+		}
+		.swatch{
+			width: 2.5cm;
+			aspect-ratio: 1;
+		}
+
+		.label {
+			font-family: monospace;
+			padding-top: 0.5em;
+			margin-top: 0.5em;
+			border-top: 1px solid #CCC; 
+		}
+
+	</style>
+	<script src="swatches.js" defer></script>
+</head>
+<body>
+
+<div class="color">
+	<h3>Fiesta</h3>
+	<div style="background: #F1357A" class="swatch"></div>
+	<p class="label" data-color-format="hex"></p>
+	<p class="label" data-color-format="rgb"></p>
+	<p class="label" data-color-format="hsl"></p>
+	<p class="label" data-color-format="lab"></p>
+	<p class="label" data-color-format="oklch"></p>
+	<p class="label" data-color-format="cmyk"></p>
+</div>
+
+<div class="color">
+	<h3>Dark Cyan</h3>
+	<div style="background: hsl(from var(--cyan) h s calc(l / 2));" class="swatch"></div>
+	<p><small>Cyan 50% darker</small></p>
+	<p class="label" data-color-source="swatch" data-color-property="background-color" data-color-format="hex">–</p>
+	<p class="label" data-color-source="swatch" data-color-property="background-color" data-color-format="rgb">–</p>
+	<p class="label" data-color-source="swatch" data-color-property="background-color" data-color-format="hsl">–</p>
+	<p class="label" data-color-source="swatch" data-color-property="background-color" data-color-format="lab">–</p>
+	<p class="label" data-color-source="swatch" data-color-property="background-color" data-color-format="oklch">–</p>
+	<p class="label" data-color-source="swatch" data-color-property="background-color" data-color-format="cmyk">–</p>
+</div>
+
+</body>
+</html>
