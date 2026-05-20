@@ -1,15 +1,16 @@
 /* Couleur//////////// */
 :root {
-	--couleurPrincipale: hsl(133, 100%, 5 2%);
+	--couleurPrincipale: pink;
+	--couleurSecondaire: orange; 
 }
 
 
 
 body {
 	font-family: system-ui;
-	background-color: var(--couleurPrincipale);
+	/* background-color: var(--couleurPrincipale);
 	color: color-mix(in srgb, var(--couleurPrincipale) 20%, white 80% )
-}
+} */
 h1{
 	font-size: 8vw;
 }
