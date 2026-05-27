@@ -1,6 +1,6 @@
 /* Couleur//////////// */
 :root {
-	--couleurPrincipale: pink;
+	--couleurPrincipale: rgb(227, 3, 40);
 	--couleurSecondaire: orange; 
 }
 
@@ -13,4 +13,18 @@ body {
 } */
 h1{
 	font-size: 8vw;
+}
+
+/* Mise en page -- Colonnes */
+.row {
+	display: flex;
+	gap: 1rem;
+}
+.row > * {
+	flex: 1;
+}
+@media(max-width: 800px){
+	.row{
+		flex-direction: column;
+	}
 }
