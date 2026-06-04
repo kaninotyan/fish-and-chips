@@ -1,8 +1,8 @@
 /* Couleur//////////// */
 :root {
-	--couleurPrincipale: rgb(227, 3, 40);
-	--couleurSecondaire: orange; 
-	margin: 1rem;
+	--couleurPrincipale: rgb(96, 155, 191);
+	--couleurSecondaire: rgb(245, 198, 27); 
+	--couleurTroisieme: rgb(181, 68, 103);
 }
 
 :root {
@@ -20,7 +20,7 @@
 
 
 body {
-	font-family: system-ui;
+	font-family: Alaska Var;
 	/* background-color: var(--couleurPrincipale);
 	color: color-mix(in srgb, var(--couleurPrincipale) 20%, white 80% )
 } */
