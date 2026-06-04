@@ -2,6 +2,7 @@
 :root {
 	--couleurPrincipale: rgb(227, 3, 40);
 	--couleurSecondaire: orange; 
+	margin: 1rem;
 }
 
 :root {
@@ -16,6 +17,7 @@
   --font-size-XXXL: 4.00rem; /* 63.96px */
   --font-size-XXXXL: 5.65rem; /* 90.44px */
 }
+
 
 body {
 	font-family: system-ui;
